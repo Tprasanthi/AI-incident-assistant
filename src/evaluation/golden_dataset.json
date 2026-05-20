@@ -1,0 +1,23 @@
+[
+  {
+    "incident_id": "INC-1001",
+    "expected_root_cause_keywords": [
+      "auth-service",
+      "deployment",
+      "database connection pool",
+      "connection exhaustion"
+    ],
+    "expected_impacted_services": [
+      "auth-service",
+      "user-service",
+      "postgres-primary"
+    ],
+    "expected_remediation_keywords": [
+      "rollback",
+      "connection pool",
+      "Postgres",
+      "circuit breaker",
+      "load test"
+    ]
+  }
+]
