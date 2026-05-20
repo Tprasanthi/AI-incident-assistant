@@ -1,0 +1,39 @@
+{
+  "incident_id": "INC-1001",
+  "metrics": [
+    {
+      "timestamp": "2026-01-15T09:55:00Z",
+      "service": "auth-service",
+      "p95_latency_ms": 180,
+      "error_rate": "0.4%",
+      "cpu_usage": "42%",
+      "memory_usage": "58%"
+    },
+    {
+      "timestamp": "2026-01-15T10:03:00Z",
+      "service": "auth-service",
+      "p95_latency_ms": 2300,
+      "error_rate": "18%",
+      "cpu_usage": "61%",
+      "memory_usage": "64%",
+      "db_connections_used": "100%"
+    },
+    {
+      "timestamp": "2026-01-15T10:06:00Z",
+      "service": "user-service",
+      "p95_latency_ms": 1250,
+      "error_rate": "9%",
+      "cpu_usage": "47%",
+      "memory_usage": "55%"
+    },
+    {
+      "timestamp": "2026-01-15T10:14:00Z",
+      "service": "auth-service",
+      "p95_latency_ms": 210,
+      "error_rate": "1%",
+      "cpu_usage": "44%",
+      "memory_usage": "60%",
+      "db_connections_used": "35%"
+    }
+  ]
+}

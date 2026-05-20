@@ -1,0 +1,10 @@
+{
+  "incident_id": "INC-1001",
+  "title": "Elevated login failures and auth latency",
+  "severity": "SEV2",
+  "created_at": "2026-01-15T10:02:00Z",
+  "reported_by": "oncall-auth",
+  "description": "Users are experiencing login failures. Auth API latency and error rate increased after the latest auth-service deployment.",
+  "customer_impact": "Approximately 18% of login attempts failed for 14 minutes.",
+  "impacted_services": ["auth-service", "user-service", "postgres-primary"]
+}

@@ -1,0 +1,10 @@
+{"timestamp":"2026-01-15T09:58:00Z","service":"auth-service","level":"INFO","message":"Deployment started version=auth-service:v2.18.0"}
+{"timestamp":"2026-01-15T10:00:30Z","service":"auth-service","level":"INFO","message":"Deployment completed version=auth-service:v2.18.0"}
+{"timestamp":"2026-01-15T10:01:10Z","service":"auth-service","level":"WARN","message":"p95_latency_ms=1450 endpoint=/login"}
+{"timestamp":"2026-01-15T10:02:20Z","service":"auth-service","level":"ERROR","message":"Database timeout while acquiring connection from pool"}
+{"timestamp":"2026-01-15T10:03:00Z","service":"auth-service","level":"ERROR","message":"connection pool exhausted active=100 idle=0 max=100"}
+{"timestamp":"2026-01-15T10:04:45Z","service":"user-service","level":"ERROR","message":"Auth dependency timeout while validating user session"}
+{"timestamp":"2026-01-15T10:06:10Z","service":"auth-service","level":"ERROR","message":"5xx spike error_rate=22% endpoint=/login"}
+{"timestamp":"2026-01-15T10:09:00Z","service":"auth-service","level":"INFO","message":"Rollback started version=auth-service:v2.17.4"}
+{"timestamp":"2026-01-15T10:12:30Z","service":"auth-service","level":"INFO","message":"Rollback completed version=auth-service:v2.17.4"}
+{"timestamp":"2026-01-15T10:14:10Z","service":"auth-service","level":"INFO","message":"p95_latency_ms=210 error_rate=1%"}

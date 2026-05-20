@@ -1,0 +1,17 @@
+{
+  "incident_id": "INC-1001",
+  "deployments": [
+    {
+      "timestamp": "2026-01-15T09:58:00Z",
+      "service": "auth-service",
+      "version": "v2.18.0",
+      "change_summary": "Introduced new login session validation path with database-backed session lookup."
+    },
+    {
+      "timestamp": "2026-01-15T10:09:00Z",
+      "service": "auth-service",
+      "version": "v2.17.4",
+      "change_summary": "Rollback to previous stable version."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "incident_id": "INC-1001",
+  "alerts": [
+    {
+      "timestamp": "2026-01-15T10:02:00Z",
+      "service": "auth-service",
+      "alert_name": "HighLoginLatency",
+      "severity": "critical",
+      "description": "p95 latency exceeded 1000 ms for /login"
+    },
+    {
+      "timestamp": "2026-01-15T10:04:00Z",
+      "service": "auth-service",
+      "alert_name": "High5xxRate",
+      "severity": "critical",
+      "description": "5xx rate exceeded 10%"
+    },
+    {
+      "timestamp": "2026-01-15T10:06:00Z",
+      "service": "user-service",
+      "alert_name": "DependencyTimeout",
+      "severity": "warning",
+      "description": "Auth service dependency timeout detected"
+    }
+  ]
+}
